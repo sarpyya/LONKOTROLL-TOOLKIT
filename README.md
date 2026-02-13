@@ -1,36 +1,29 @@
-# LONKOTROLL TOOLKIT 🧌🔥💀😈🪄🎉📳💥🖕😂
+# LONKOTROLL TOOLKIT 🧌🔥💀😈🪄🎉📳💥🖕😂🤡💣
 
-**LONKOTROLL MODE FULL ACTIVADO FOREVER**  
-Instalador caótico de Flutter + Android Studio + paquetes meme/troll para Windows  
-Porque el desarrollo serio ya nos tiene hasta la coronilla 😤🪦
+**MIT License** – trollea, rompe, vende, quema, todo vale 🔥🪦
 
-MIT License – haz lo que quieras, trollea sin culpa, vende el alma si te da la gana 🔥
+[![License: MIT](https://img.shields.io/badge/License-MIT-red?style=for-the-badge&logo=ghost)](https://opensource.org/licenses/MIT)
+![Troll Level](https://img.shields.io/badge/Troll%20Level-OVER%209000-orange?style=for-the-badge&logo=firefox)
+![Windows Only](https://img.shields.io/badge/Windows-Only-black?style=for-the-badge&logo=windows)
 
-## 🚀 ¿QUÉ HACE ESTE DEMONIO?  
-- Instala Chocolatey si no existe ☠️  
-- Baja Flutter SDK + Android Studio con choco en modo --force 😈  
-- Acepta licencias Android sin preguntar ni joder ⚡  
-- Menú interactivo para elegir paquetes serios o PURO CAOS TROLL 🧨  
-- Paquetes que hacen explotar confeti, vibrar el celu, animaciones satánicas y más 💣🎊  
+Instalador que te obliga a sufrir mientras instalas Flutter con puro meme.
 
-## 🛠 Requisitos (sin excusas)  
-- Windows 10/11  
-- **Ejecutar como administrador** (obligatorio o no funciona nada)  
-- Internet (obvio weon) 🌐  
+## ¿Estás lo suficientemente troleador?  
+Ya casi... pero con esto llegas al OLIMPO DEL TROLLEO 😭🧌
 
-## 🔥 Instalación ultra-rápida  
-1. Crea archivo `install_lonkotroll.bat`  
-2. Copia y pega TODO el código de abajo  
-3. Clic derecho → **Ejecutar como administrador**  
-4. Dale ENTER para máximo caos o elige tus números de trolleo 🧌  
+## Instalación (como admin o te vas a arrepentir)
+1. Crea `install_lonkotroll.bat`  
+2. Copia el código de abajo  
+3. Ejecutar como administrador  
+4. Elige 9 para rickroll dreams (aunque no exista, el espíritu vive)  
 
-
+```batch
 @echo off
-title LONKOTROLL TOOLKIT v666 - NO MERCY MODE ACTIVADO 😈🧌💀🔥
+title LONKOTROLL TOOLKIT v666.9 - TROLLEO MÁXIMO ACTIVADO 😈🧌💀🔥🤡
 
 echo =============================================
-echo      LONKOTROLL TOOLKIT - EL CAOS ES LEY
-echo   Flutter + Android Studio + PAQUETES TROLL 2026
+echo      LONKOTROLL TOOLKIT - EL REY DEL CAOS
+echo   Flutter + Android Studio + TROLLEO PURO 2026
 echo =============================================
 echo.
 
@@ -46,26 +39,25 @@ flutter upgrade --force
 
 echo.
 echo =============================================
-echo   ELIGE TUS ARMAS TROLL (separados por espacio)
-echo   ENTER = TODOS LOS PAQUETES CAÓTICOS + MEMES 💥🧨
+echo   ELIGE TU NIVEL DE TROLLEO (ENTER = MÁXIMO)
 echo =============================================
 echo.
 
 :menu
 cls
-echo 1  flutter_riverpod      → state a prueba de balazos 🛡️
-echo 2  dio                   → HTTP sin piedad ni misericordia ⚡
-echo 3  firebase suite        → backend que te quema el orto 🔥
-echo 4  hive + hive_flutter   → base de datos loca y rápida 🕳️
-echo 5  lottie               → animaciones satánicas nivel dios 🎬
-echo 6  confetti             → explota confeti en cada build 🎉💣
-echo 7  animated_text_kit    → texto que se burla de tu existencia 😏
-echo 8  shake                → app vibra si la sacudes fuerte 📳😭
-echo 9  rickroll             → rickroll random (sueño eterno) 🎵🕺
-echo 0  SALIR / ME RINDO 🏳️
+echo 1  flutter_riverpod      → state serio (aburrido) 🛡️
+echo 2  dio                   → HTTP sin alma ⚡
+echo 3  firebase suite        → backend que te trollea a ti 🔥
+echo 4  hive                  → base de datos loca 🕳️
+echo 5  lottie               → animaciones del infierno 🎬
+echo 6  confetti             → confeti en tu vida 🎉💣
+echo 7  animated_text_kit    → texto que te insulta 😏
+echo 8  shake + vibration    → tiembla y vibra tu celu 📳😭
+echo 9  rickroll dreams       → el sueño troll eterno 🎵🕺
+echo 0  SALIR (cobarde) 🏳️
 echo.
 
-set /p picks="Lonkotroll manda: "
+set /p picks="Nivel de trolleo: "
 
 if "%picks%"=="" set "picks=1 2 3 4 5 6 7 8 9"
 
@@ -79,29 +71,36 @@ for %%n in (%picks%) do (
     if "%%n"=="5" set "pkgs=!pkgs! lottie"
     if "%%n"=="6" set "pkgs=!pkgs! confetti"
     if "%%n"=="7" set "pkgs=!pkgs! animated_text_kit"
-    if "%%n"=="8" set "pkgs=!pkgs! shake"
-    if "%%n"=="9" set "pkgs=!pkgs! rickroll"
+    if "%%n"=="8" set "pkgs=!pkgs! shake vibration"
+    if "%%n"=="9" set "pkgs=!pkgs! just_audio"   REM para rickroll manual xd
     if "%%n"=="0" goto fin
 )
 
 if not "!pkgs!"=="" (
     echo.
-    echo LONKOTROLL INSTALANDO... PREPÁRATE PARA EL CAOS 💀🔥
+    echo INSTALANDO TROLLEO MÁXIMO... AGUANTA CRACK 💀🔥
     flutter pub add !pkgs!
     echo.
-    echo Listo weon. Corre "flutter pub get" y sufre con estilo 😂🧌
+    echo Listo. flutter pub get y prepárate pa'l ridículo 😂🧌
 )
 
 echo.
-echo Presiona cualquier tecla pa' seguir trolleando sin parar...
+echo Presiona cualquier tecla pa' más trolleo...
 pause >nul
 goto menu
 
 :fin
 echo.
 echo =============================================
-echo   LONKOTROLL TOOLKIT COMPLETADO 🧌💀🔥😈
-echo   Que el espíritu troll te acompañe siempre 🪄🖕
+echo        LONKOTROLL COMPLETADO - NIVEL DIOS
 echo =============================================
+
+echo.
+echo          🧌
+echo       💀   🔥
+echo     😈       🪄
+echo   🎉           💥
+echo  🖕  TROLLEA SIEMPRE  🤡
+echo.
 timeout /t 5 >nul
 exit
